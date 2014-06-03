@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript Zagreb - <%= @item[:title] %></title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/stylesheets/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  </head>
+  <body>
+    <aside id="logo-menu">
+      <div id="fixit">
+      <img src="/images/logo.svg">
+        <nav>
+          <ul>
+            <li><a href="#" class="active"><span>Vijesti</span></a></li>
+            <li><a href="https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform"><span>Postani predavač</span></a></li>
+            <% if false %>
+              <li><a href="#"><span>O grupi / Kontakt</span></a></li>
+            <% end %>
+          </ul>
+        </nav>
+        <% if next_meetup %>
+          <a href="http://www.meetup.com/JavaScript-Zagreb" id="apply-meetup">
+            <span>Pridruži nam se</span>
+            <%= next_meetup[:date].strftime('%d.%m.%Y. u %H:%M') %>
+          </a>
+        <% end %>
+        </div>
+    </aside>
+
+    <aside id="social">
+      <h2><b class="icon-calendar"></b>Kalendar događanja</h2>
+      <table>
+        <% next_meetups.each do |meetup| %>
+          <tr>
+            <td class="date">
+              <strong><%= meetup[:date].strftime('%d.%m.%Y. u %H:%M') %></strong>
+              <br>
+              <%= day(meetup[:date].strftime('%w').to_i) %>
+            </td>
+            <td><strong><%= meetup[:venue] %></strong><br><%= meetup[:address] %></td>
+          </tr>
+        <% end %>
+      </table>
+      <h2><b class="icon-twitter"></b>Prati <a href="https://twitter.com/intent/follow?screen_name=jszgb">@jszgb</a> na Twitteru</h2>
+      <a class="twitter-timeline"  href="https://twitter.com/jszgb"  data-widget-id="379957441418375168" data-chrome="nofooter transparent noborders noscrollbar noheader" data-tweet-limit="3">Tweets by @jszgb</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    </aside>
+
+    <main>
+      <%= yield %>
+    </main>
+    
+  </body>
+</html>

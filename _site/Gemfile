@@ -1,0 +1,9 @@
+source 'https://rubygems.org'
+
+gem 'compass', '0.12.6'
+gem 'modular-scale', '1.0.6'
+gem 'singularitygs', '1.1.2'
+gem 'breakpoint', '2.0.7'
+gem 'breakpoint-slicer', '1.2'
+gem 'guard', '2.6.0'
+gem 'guard-nanoc', '1.0.1'
