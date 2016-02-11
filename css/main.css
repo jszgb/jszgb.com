@@ -1,0 +1,474 @@
+@import url(../fontawesome/css/fontello.css);
+@import url(./normalize.css);
+/* line 26, content/stylesheets/stylesheet.scss */
+body, html {
+  margin: 0;
+  height: 100%;
+  background: #1a1a1a;
+  color: #e6e6e6;
+}
+
+/* line 34, content/stylesheets/stylesheet.scss */
+body {
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+@media (min-width: 961px) {
+  /* line 34, content/stylesheets/stylesheet.scss */
+  body {
+    max-width: 1200px;
+    height: 100%;
+  }
+}
+
+/* line 45, content/stylesheets/stylesheet.scss */
+a {
+  color: #3faad4;
+  text-decoration: none;
+}
+/* line 48, content/stylesheets/stylesheet.scss */
+a:hover {
+  color: #7ed8fb;
+  text-decoration: underline;
+}
+
+/* line 54, content/stylesheets/stylesheet.scss */
+#logo-menu {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+@media (max-width: 580px) {
+  /* line 54, content/stylesheets/stylesheet.scss */
+  #logo-menu {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 581px) and (max-width: 960px) {
+  /* line 54, content/stylesheets/stylesheet.scss */
+  #logo-menu {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+  }
+}
+@media (min-width: 961px) {
+  /* line 54, content/stylesheets/stylesheet.scss */
+  #logo-menu {
+    width: 20%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+  }
+}
+/* line 67, content/stylesheets/stylesheet.scss */
+#logo-menu img {
+  width: 100%;
+}
+
+/* line 71, content/stylesheets/stylesheet.scss */
+main {
+  padding-top: 30px;
+  min-height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  /*background: #161616;*/
+  display: block;
+}
+@media (max-width: 580px) {
+  /* line 71, content/stylesheets/stylesheet.scss */
+  main {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 581px) and (max-width: 960px) {
+  /* line 71, content/stylesheets/stylesheet.scss */
+  main {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+    clear: both;
+  }
+}
+@media (min-width: 961px) {
+  /* line 71, content/stylesheets/stylesheet.scss */
+  main {
+    width: 50%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 20%;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+    border-left: 1px solid #282828;
+    border-right: 1px solid #282828;
+  }
+}
+
+/* line 91, content/stylesheets/stylesheet.scss */
+#social {
+  padding-top: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 580px) {
+  /* line 91, content/stylesheets/stylesheet.scss */
+  #social {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media (min-width: 581px) and (max-width: 960px) {
+  /* line 91, content/stylesheets/stylesheet.scss */
+  #social {
+    width: 50%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+  }
+}
+@media (min-width: 961px) {
+  /* line 91, content/stylesheets/stylesheet.scss */
+  #social {
+    width: 30%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    padding-left: 1.55%;
+    padding-right: 1.55%;
+  }
+}
+/* line 103, content/stylesheets/stylesheet.scss */
+#social h2 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0;
+  position: relative;
+  padding-left: 25px;
+}
+/* line 113, content/stylesheets/stylesheet.scss */
+#social h2 a {
+  color: #ebe247;
+  text-decoration: none;
+}
+/* line 117, content/stylesheets/stylesheet.scss */
+#social h2 b {
+  font-weight: normal;
+  font-size: 16px;
+  position: absolute;
+  display: block;
+  left: 0;
+  margin-top: -1px;
+}
+/* line 126, content/stylesheets/stylesheet.scss */
+#social a.twitter-timeline {
+  display: none;
+}
+/* line 129, content/stylesheets/stylesheet.scss */
+#social table {
+  width: 100%;
+  margin: -0.2em 0 2em 0;
+  border-bottom: 1px solid #282828;
+}
+@media (max-width: 580px) {
+  /* line 129, content/stylesheets/stylesheet.scss */
+  #social table {
+    font-size: 1.1em;
+  }
+}
+@media (min-width: 581px) {
+  /* line 129, content/stylesheets/stylesheet.scss */
+  #social table {
+    font-size: 0.8em;
+  }
+}
+/* line 139, content/stylesheets/stylesheet.scss */
+#social table .date {
+  width: 9.5em;
+}
+/* line 142, content/stylesheets/stylesheet.scss */
+#social table td {
+  vertical-align: top;
+  padding: 1em 0;
+  border-bottom: 1px solid #282828;
+  color: #aaa;
+}
+/* line 147, content/stylesheets/stylesheet.scss */
+#social table td strong {
+  color: #e6e6e6;
+}
+
+/* line 153, content/stylesheets/stylesheet.scss */
+#apply-meetup {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebe247), color-stop(100%, #b8af14));
+  background: -webkit-linear-gradient(top, #ebe247, #b8af14);
+  background: -moz-linear-gradient(top, #ebe247, #b8af14);
+  background: -o-linear-gradient(top, #ebe247, #b8af14);
+  background: linear-gradient(top, #ebe247, #b8af14);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0px 3px #141414;
+  -moz-box-shadow: 0px 3px #141414;
+  box-shadow: 0px 3px #141414;
+  margin-top: 0.5em;
+  padding: 0.5em;
+  display: block;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  color: #252525;
+  text-decoration: none;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  position: relative;
+}
+/* line 168, content/stylesheets/stylesheet.scss */
+#apply-meetup:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eee65e), color-stop(100%, #cfc517));
+  background: -webkit-linear-gradient(top, #eee65e, #cfc517);
+  background: -moz-linear-gradient(top, #eee65e, #cfc517);
+  background: -o-linear-gradient(top, #eee65e, #cfc517);
+  background: linear-gradient(top, #eee65e, #cfc517);
+}
+/* line 171, content/stylesheets/stylesheet.scss */
+#apply-meetup:active {
+  top: 1px;
+  -webkit-box-shadow: 0px 2px #141414;
+  -moz-box-shadow: 0px 2px #141414;
+  box-shadow: 0px 2px #141414;
+}
+/* line 175, content/stylesheets/stylesheet.scss */
+#apply-meetup span {
+  font-weight: 700;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 182, content/stylesheets/stylesheet.scss */
+article {
+  border-bottom: 1px solid #282828;
+  padding-bottom: 1em;
+  margin-bottom: 1.5em;
+}
+/* line 186, content/stylesheets/stylesheet.scss */
+article:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+/* line 190, content/stylesheets/stylesheet.scss */
+article h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  line-height: 1.3em;
+  color: #ebe247;
+  text-transform: uppercase;
+  margin: 0 0 0.5em 0;
+  letter-spacing: 0.05em;
+}
+article h1 a {
+  color: #ebe247;
+}
+
+article h1 a:hover {
+  color: #ebe247;
+}
+/* line 200, content/stylesheets/stylesheet.scss */
+article p {
+  line-height: 1.40em;
+  margin: 0 0 0.5em;
+}
+@media (max-width: 580px) {
+  /* line 200, content/stylesheets/stylesheet.scss */
+  article p {
+    font-size: 1.2em;
+  }
+}
+@media (min-width: 581px) {
+  /* line 200, content/stylesheets/stylesheet.scss */
+  article p {
+    font-size: 0.9em;
+  }
+}
+/* line 212, content/stylesheets/stylesheet.scss */
+article .date {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  color: #1a1a1a;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #e6e6e6));
+  background: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background: linear-gradient(top, #ffffff, #e6e6e6);
+  width: 5.5em;
+  text-align: center;
+  float: left;
+  line-height: 1.65em;
+  margin: 0.4em 0.45em 0 0;
+}
+/* line 224, content/stylesheets/stylesheet.scss */
+article img {
+  width: 100%;
+  margin: 0.5em 0;
+  border: 5px solid #111;
+  background: #111;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 233, content/stylesheets/stylesheet.scss */
+nav ul {
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+}
+/* line 237, content/stylesheets/stylesheet.scss */
+nav ul li {
+  padding: 0;
+}
+/* line 239, content/stylesheets/stylesheet.scss */
+nav ul li a {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #222;
+  display: block;
+  color: #666;
+  transition: all 0.2s ease-out;
+  border-bottom: 0.75em #1a1a1a solid;
+}
+/* line 48, /Users/retro/.rvm/gems/ruby-2.1.1/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+nav ul li a:before, nav ul li a:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 55, /Users/retro/.rvm/gems/ruby-2.1.1/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+nav ul li a:after {
+  clear: both;
+}
+/* line 249, content/stylesheets/stylesheet.scss */
+nav ul li a:hover, nav ul li a.active {
+  color: #ebe247;
+  background: #333;
+}
+/* line 253, content/stylesheets/stylesheet.scss */
+nav ul li a span {
+  background: #1a1a1a;
+  float: left;
+  font-size: 1.4em;
+  line-height: 1em;
+  padding: 0 0.3em 0 0;
+}
+@media (max-width: 580px) {
+  /* line 253, content/stylesheets/stylesheet.scss */
+  nav ul li a span {
+    font-size: 2em;
+  }
+}
+@media (min-width: 581px) and (max-width: 960px) {
+  /* line 253, content/stylesheets/stylesheet.scss */
+  nav ul li a span {
+    font-size: 2em;
+  }
+}
+
+/* line 269, content/stylesheets/stylesheet.scss */
+#pagination {
+  /* for IE 6/7 */
+  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
+  /* non-JS fallback */
+  *zoom: 1;
+  margin: 1.5em 0;
+}
+/* line 48, /Users/retro/.rvm/gems/ruby-2.1.1/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+#pagination:before, #pagination:after {
+  content: ".";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+/* line 55, /Users/retro/.rvm/gems/ruby-2.1.1/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+#pagination:after {
+  clear: both;
+}
+/* line 272, content/stylesheets/stylesheet.scss */
+#pagination a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+@media (max-width: 580px) {
+  /* line 272, content/stylesheets/stylesheet.scss */
+  #pagination a {
+    font-size: 1.4em;
+  }
+}
+/* line 279, content/stylesheets/stylesheet.scss */
+#pagination a:hover {
+  text-decoration: none;
+}
+/* line 282, content/stylesheets/stylesheet.scss */
+#pagination a#next {
+  float: right;
+}
