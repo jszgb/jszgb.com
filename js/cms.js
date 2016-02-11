@@ -287,6 +287,9 @@ var CMS = {
       case 'page':
         folder = CMS.settings.pagesFolder
         break
+      case 'slides':
+        folder = CMS.settings.pagesFolder
+        break
     }
 
     if (CMS.settings.mode === 'Github') {

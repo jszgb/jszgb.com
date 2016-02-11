@@ -16,8 +16,8 @@ $(function() {
 
     // Navigation items
     siteNavItems: [
-      { name: 'News', href: '/', className: 'active'},
-      { name: 'Slides', href: '/'},
+      { name: 'News', href: '/'},
+      { name: 'Slides'},
       { name: 'Onbording', href: 'https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform', newWindow: true}
     ],
 
@@ -28,7 +28,7 @@ $(function() {
     postSnippetLength: 300,
 
     // Pages folder name
-    pagesFolder: 'pages',
+    pagesFolder: 'Slides',
 
     // Order of sorting (true for newest to oldest)
     sortDateOrder: true,
