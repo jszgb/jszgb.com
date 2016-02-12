@@ -186,6 +186,7 @@ main {
   margin: 0;
   position: relative;
   padding-left: 25px;
+  margin-bottom:10px;
 }
 /* line 113, content/stylesheets/stylesheet.scss */
 #social h2 a {
@@ -224,6 +225,26 @@ main {
   }
 }
 /* line 139, content/stylesheets/stylesheet.scss */
+#social table .date h2{
+  float:left;
+  padding:0;
+}
+#social table .date .day{
+  float:right;
+  margin-top:3px;
+}
+#social table .date .weekday{
+  float:left;
+}
+#social table .date p{
+  margin:0;
+  float:right;
+}
+#social table .date .separator{
+  float:left;
+  height:1px;
+  width:100%;
+}
 #social table .date {
   width: 9.5em;
 }

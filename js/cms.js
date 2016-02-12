@@ -112,7 +112,6 @@ var CMS = {
         var tpl = $(document.getElementById('page-template')).html()
         var $tpl = $(tpl)
 
-        $tpl.find('.page-title').html(page.title)
         $tpl.find('.page-content').html(page.contentData)
 
         CMS.settings.mainContainer.html($tpl).hide().fadeIn(CMS.settings.fadeSpeed)
@@ -182,6 +181,22 @@ var CMS = {
     CMS.settings.mainContainer.html('').fadeOut(CMS.settings.fadeSpeed, function () {
       CMS.settings.mainContainer.html($tpl).fadeIn(CMS.settings.fadeSpeed)
     })
+  },
+
+  renderEvents: function (events) {
+    events.events.forEach(function(event) {
+      var tpl = $(document.getElementById('events-template')).html()
+      var $tpl = $(tpl)
+      var title = $tpl.find('h2')
+      var day = $tpl.find('.day')
+      var weekDay = $tpl.find('.weekday')
+      var street = $tpl.find('.street')
+      title.html("<a href='" + event.link + "'>" + event.title + "</a>")
+      day.html(event.day)
+      weekDay.html(event.weekday)
+      street.html(event.street)
+      $("#events").append($tpl);
+    });
   },
 
   contentLoaded: function (type) {
@@ -276,6 +291,31 @@ var CMS = {
     })
   },
 
+  getEvents: function () {
+    var urlFolder = ''
+    var url
+
+    if (CMS.settings.mode === 'Github') {
+      url = file.link
+    } else {
+      url = '/events.json'
+    }
+
+    $.ajax({
+      type: 'GET',
+      url: url,
+      dataType: 'json',
+      success: function (content) {
+        CMS.renderEvents(content)
+      },
+      error: function () {
+        var errorMsg = 'Error loading ' + type + ' content'
+        CMS.renderError(errorMsg)
+      }
+    })
+  },
+
+
   getFiles: function (type) {
     var folder = ''
     var url = ''
@@ -285,9 +325,6 @@ var CMS = {
         folder = CMS.settings.postsFolder
         break
       case 'page':
-        folder = CMS.settings.pagesFolder
-        break
-      case 'slides':
         folder = CMS.settings.pagesFolder
         break
     }
@@ -417,7 +454,7 @@ var CMS = {
     this.setSiteAttributes()
 
     var types = ['post', 'page']
-
+    CMS.getEvents()
     types.forEach(function (type) {
       CMS.getFiles(type)
     })

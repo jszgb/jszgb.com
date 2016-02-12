@@ -18,24 +18,15 @@
        <img src="/images/logo.svg">
        <nav class="cms_nav"></nav>
        <a href="http://www.meetup.com/JavaScript-Zagreb" id="apply-meetup">
-         <span>Pridruži nam se</span>
+         <span>Join us</span>
          03.06.2014. u 03:45
        </a>
       </div>
    </aside>
 
    <aside id="social">
-     <h2><b class="icon-calendar"></b>Kalendar događanja</h2>
-     <table>
-
-         <tr>
-           <td class="date">
-             <strong>03.06.2014. u 03:45</strong>
-             <br>
-             Utorak
-           </td>
-           <td><strong></strong><br>Preradovićeva 18, Zagreb</td>
-         </tr>
+     <h2><b class="icon-calendar"></b>Upcoming events</h2>
+     <table id="events">
 
      </table>
      <h2><b class="icon-twitter"></b>Prati <a href="https://twitter.com/intent/follow?screen_name=jszgb">@jszgb</a> na Twitteru</h2>
@@ -55,7 +46,6 @@
   <!-- Page View -->
   <script id="page-template" type="x-template">
     <article class="page">
-      <h1 class="page-title"></h1>
       <div class="page-content"></div>
     </article>
   </script>
@@ -76,6 +66,17 @@
       <p class="error_text"></p>
       <a href="#" class="close alert_close">&times;</a>
     </div>
+  </script>
+  <!-- Events View -->
+  <script id="events-template" type="x-template">
+    <tr>
+      <td class="date">
+        <h2>jsZgb meetup #23</h2>
+        <strong class="day"></strong>
+        <div class="separator"></div>
+        <span class="weekday">Utorak</span>
+        <p>Preradovićeva 18, Zagreb</p>
+    </tr>
   </script>
 
   <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
