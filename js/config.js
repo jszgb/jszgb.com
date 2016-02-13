@@ -61,7 +61,7 @@ $(function() {
     // If Github mode is set, choose which Github branch to get files from.
     // Defaults to Github pages branch (gh-pages)
     githubSettings: {
-      branch: 'gh-pages',
+      branch: 'master',
       host: 'https://api.github.com'
     }
 

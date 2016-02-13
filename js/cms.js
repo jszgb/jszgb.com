@@ -320,7 +320,7 @@ var CMS = {
     if (CMS.settings.mode === 'Github') {
       var gus = CMS.settings.githubUserSettings
       var gs = CMS.settings.githubSettings
-      url = gs.host + '/repos/' + gus.username + '/' + gus.repo + '/contents/events.json?ref=' + gs.branch
+      url = 'https://raw.githubusercontent.com/jszgb/jszgb.github.io/master/events.json'
     } else {
       url = '/events.json'
     }
