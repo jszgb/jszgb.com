@@ -28,7 +28,7 @@ $(function() {
     postSnippetLength: 300,
 
     // Pages folder name
-    pagesFolder: 'Slides',
+    pagesFolder: 'slides',
 
     // Order of sorting (true for newest to oldest)
     sortDateOrder: true,
