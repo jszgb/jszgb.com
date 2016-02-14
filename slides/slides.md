@@ -8,7 +8,7 @@ Slides and other stuff from JavaScript Zagreb meetups.
 
 ## JavaScript Zagreb Meetup #23 - 17.2.2016
 ### [Tomislav Gajšak](https://twitter.com/gajo4256)
-#### [Integration tests in node.js]()
+#### [Backbone stickit - how to do two way data binding in backbone]()
 
 When developing Backbone apps we often need the view to be in sync with model and vice versa. To avoid getting lost in Backbone boilerplate code with multiple listeners and events, we can easily use Stickit - one of the two-way data binding implementations available for Backbone. In this small presentation I will show you how you can use it with simple input element and more complex elements like select.
 

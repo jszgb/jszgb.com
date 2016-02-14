@@ -127,7 +127,7 @@ var CMS = {
         var $tpl = $(tpl)
 
         $tpl.find('.post-title').html(post.title)
-        $tpl.find('.post-date').html((post.date.getMonth() + 1) + '.' + post.date.getDate() + '.' + post.date.getFullYear())
+        $tpl.find('.post-date').html(post.date.getDate() + '.' + (post.date.getMonth() + 1) + '.' + post.date.getFullYear())
         $tpl.find('.post-content').html(post.contentData)
 
         CMS.settings.mainContainer.html($tpl).hide().fadeIn(CMS.settings.fadeSpeed)
@@ -143,7 +143,7 @@ var CMS = {
       var $tpl = $(tpl)
 
       var title = '<a href="#">' + post.title + '</a>'
-      var date = (post.date.getMonth() + 1) + '.' + post.date.getDate() + '.' + post.date.getFullYear()
+      var date = post.date.getDate() + '.' + (post.date.getMonth() + 1) + '.' + post.date.getFullYear()
       var snippet = post.contentData
 
       var postLink = $tpl.find('.post-title')
@@ -190,20 +190,21 @@ var CMS = {
     link.attr('href', event.link)
     console.log(event)
     link.html('<span>Join us</span>' + event.day)
-    $('#fixit').append(link)
+    $('#fixit .next').html(link)
   },
 
   renderEvents: function (events) {
     var now = Date.now() / 1000 | 0
     var tpl = $(document.getElementById('events-template')).html()
-    var $tpl = $(tpl)
-    var title = $tpl.find('h2')
-    var day = $tpl.find('.day')
-    var weekDay = $tpl.find('.weekday')
-    var street = $tpl.find('.street')
+
     var smallest
     var smallestEvent
     events.events.forEach(function (event) {
+      var $tpl = $(tpl)
+      var title = $tpl.find('h2')
+      var day = $tpl.find('.day')
+      var weekDay = $tpl.find('.weekday')
+      var street = $tpl.find('.street')
       var d = event.day.split('.')
       var date = new Date(d[2], d[1], d[0]).getTime() / 1000 | 0
       if (now > date) {
@@ -365,7 +366,7 @@ var CMS = {
       success: function (data) {
         var files = []
         var linkFiles
-        var dateParser = /\d{4}-\d{2}(?:-d{2})?/ // can parse both 2016-01 and 2016-01-01
+        var dateParser = /\d{4}-\d{2}-\d{2}/ // can parse both 2016-01 and 2016-01-01
 
         if (CMS.settings.mode === 'Github') {
           linkFiles = data

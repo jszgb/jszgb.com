@@ -259,7 +259,10 @@ main {
 #social table td strong {
   color: #e6e6e6;
 }
-
+#fixit iframe{
+  display:block;
+  margin: 0 auto;
+}
 /* line 153, content/stylesheets/stylesheet.scss */
 #apply-meetup {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebe247), color-stop(100%, #b8af14));
@@ -286,6 +289,7 @@ main {
   font-size: 1.2em;
   line-height: 1.3em;
   position: relative;
+  margin-bottom:20px;
 }
 /* line 168, content/stylesheets/stylesheet.scss */
 #apply-meetup:hover {
