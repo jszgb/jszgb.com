@@ -18,7 +18,7 @@ $(function() {
     siteNavItems: [
       { name: 'News', href: '/'},
       { name: 'Slides'},
-      { name: 'Onbording', href: 'https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform', newWindow: true}
+      { name: 'Onboarding', href: 'https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform', newWindow: true}
     ],
 
     // Posts folder name
