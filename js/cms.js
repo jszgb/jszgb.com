@@ -206,7 +206,7 @@ var CMS = {
       var weekDay = $tpl.find('.weekday')
       var street = $tpl.find('.street')
       var d = event.day.split('.')
-      var date = new Date(d[2], d[1], d[0]).getTime() / 1000 | 0
+      var date = new Date(d[2], (parseInt(d[1], 10) - 1), (parseInt(d[0], 10) + 1)).getTime() / 1000 | 0
       if (now > date) {
         return
       }
