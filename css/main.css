@@ -32,6 +32,11 @@ a:hover {
   color: #7ed8fb;
   text-decoration: underline;
 }
+#logo-menu img.gitter{
+  display:block;
+  width:50%;
+  margin:0 auto 20px;
+}
 
 /* line 54, content/stylesheets/stylesheet.scss */
 #logo-menu {
@@ -262,6 +267,7 @@ main {
 #fixit iframe{
   display:block;
   margin: 0 auto;
+  padding-left:20px;
 }
 /* line 153, content/stylesheets/stylesheet.scss */
 #apply-meetup {
