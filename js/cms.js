@@ -186,9 +186,7 @@ var CMS = {
     var tpl = $(document.getElementById('next-event-template')).html()
     var $tpl = $(tpl)
     var link = $tpl.find('a')
-    console.log(link)
     link.attr('href', event.link)
-    console.log(event)
     link.html('<span>Join us</span>' + event.day)
     $('#fixit .next').html(link)
   },
@@ -321,7 +319,7 @@ var CMS = {
     if (CMS.settings.mode === 'Github') {
       var gus = CMS.settings.githubUserSettings
       var gs = CMS.settings.githubSettings
-      url = 'https://raw.githubusercontent.com/jszgb/jszgb.github.io/master/events.json'
+      url = 'https://rawgit.com/jszgb/jszgb.github.io/master/events.json'
     } else {
       url = '/events.json'
     }
