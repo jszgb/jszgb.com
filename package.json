@@ -17,6 +17,7 @@
     "url": "https://github.com/jszgb/jszgb.github.io/issues"
   },
   "devDependencies": {
+    "babel-register": "^6.5.2",
     "gulp": "^3.9.1",
     "node-sass": "^3.4.2",
     "sass-npm": "^1.0.2"
