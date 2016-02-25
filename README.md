@@ -6,7 +6,7 @@ Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
 
 Meetup: [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
-Home page of JavaScript Zagreb, a community for JavaScript developers.
+Home page of JavaScript Zagreb, a community for JavaScript developers from Zagreb, Croatia.
 
 Slides should go to our [slides folder](https://github.com/jszgb/jszgb.github.io/blob/master/slides/slides.md).
 
