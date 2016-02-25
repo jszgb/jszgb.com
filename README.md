@@ -10,7 +10,7 @@ Home page of JavaScript Zagreb, a community for JavaScript developers.
 
 Slides should go to our [slides folder](https://github.com/jszgb/jszgb.github.io/blob/master/slides/slides.md).
 
-Purpose a meetup topic by opening a [new issue](https://github.com/jszgb/jszgb.github.io/issues/new).
+Propose a meetup topic by opening a [new issue](https://github.com/jszgb/jszgb.github.io/issues/new).
 
 For any questions, please open up [an issue](https://github.com/jszgb/jszgb.github.io/issues/new).
 
