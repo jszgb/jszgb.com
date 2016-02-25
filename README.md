@@ -1,10 +1,8 @@
 # JavaScript Zagreb
 
-Twitter: [@jszgb](https://twitter.com/jszgb)
-
-Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
-
-Meetup: [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
+* Twitter: [@jszgb](https://twitter.com/jszgb)
+* Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
+* Meetup: [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
 Home page of JavaScript Zagreb, a community for JavaScript developers from Zagreb, Croatia.
 
