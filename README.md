@@ -1,11 +1,10 @@
-# JavaScript Zagreb
+# JavaScript Zagreb - [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
 [![Build Status](https://travis-ci.org/jszgb/jszgb.github.io.svg?branch=master)](https://travis-ci.org/jszgb/jszgb.github.io)
 [![Slack Badge](https://jszgb-slack.herokuapp.com/badge.svg)](https://jszgb-slack.herokuapp.com/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/jszgb.svg?style=social)](https://twitter.com/jszgb)
 
-* Twitter: [@jszgb](https://twitter.com/jszgb)
-* Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
-* Meetup: [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
+ Meetup page - [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
 Home page of JavaScript Zagreb, a community for JavaScript developers from
 Zagreb, Croatia.
