@@ -22,4 +22,4 @@ You can provide presentation ideas, vote for existing ones, report a website iss
 
 ## License
 
-MIT
+[MIT](/LICENSE)
