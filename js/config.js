@@ -1,7 +1,6 @@
-$(function() {
-
+/* global CMS, $, marked */
+$(function () {
   CMS.init({
-
     // Name of your site or location of logo file, relative to root directory (img/logo.png)
     siteName: 'JavaScript Zagreb user grupa',
 
@@ -16,9 +15,9 @@ $(function() {
 
     // Navigation items
     siteNavItems: [
-      { name: 'News', href: '/'},
-      { name: 'Slides'},
-      { name: 'Onboarding', href: 'https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform', newWindow: true}
+      { name: 'News', href: '/' },
+      { name: 'Slides' },
+      { name: 'Onboarding', href: 'https://docs.google.com/forms/d/1EwG3SztKxB2VU_0LHpeukF3AOFQil9VSRm6KWrcVl1U/viewform', newWindow: true }
     ],
 
     // Posts folder name
@@ -65,7 +64,7 @@ $(function() {
       host: 'https://api.github.com'
     }
 
-  });
+  })
 
   // Markdown settings
   marked.setOptions({
@@ -77,6 +76,5 @@ $(function() {
     sanitize: true,
     smartLists: true,
     smartypants: false
-  });
-
-});
+  })
+})

@@ -1,11 +1,12 @@
 {
-  "name": "CMS.js",
+  "name": "jsZgb",
   "version": "1.0.0",
   "description": "jsZgb Site",
   "homepage": "https://github.com/cdmedia/cms.js",
   "scripts": {
     "style": "node-sass styles/style.scss > css/main.css",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard; markdownlint README.md",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,9 @@
   "devDependencies": {
     "babel-register": "^6.5.2",
     "gulp": "^3.9.1",
+    "markdownlint-cli": "0.0.3",
     "node-sass": "^3.4.2",
-    "sass-npm": "^1.0.2"
+    "sass-npm": "^1.0.2",
+    "standard": "^6.0.7"
   }
 }

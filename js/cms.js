@@ -5,7 +5,7 @@
  * Free to use under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
  */
- /* global $, marked*/
+ /* global $, marked */
 'use strict'
 
 var CMS = {
@@ -317,8 +317,6 @@ var CMS = {
     var url
 
     if (CMS.settings.mode === 'Github') {
-      var gus = CMS.settings.githubUserSettings
-      var gs = CMS.settings.githubSettings
       url = 'https://rawgit.com/jszgb/jszgb.github.io/master/events.json'
     } else {
       url = '/events.json'
