@@ -1,14 +1,17 @@
-# JavaScript Zagreb
-
+# JavaScript Zagreb [![Slack Badge](https://jszgb-slack.herokuapp.com/badge.svg)](https://jszgb-slack.herokuapp.com/)
 * Twitter: [@jszgb](https://twitter.com/jszgb)
 * Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
 * Meetup: [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
 Home page of JavaScript Zagreb, a community for JavaScript developers from Zagreb, Croatia.
 
-## Other WCZG communities on Github
+## Some other dev communities from Zagreb
 
-[Ruby Zagreb](https://github.com/rubyzg)
+* [Ruby Zagreb](https://github.com/rubyzg)
+* [PHP Zagreb](http://www.meetup.com/ZgPHP-meetup/)
+* [Python Hrvatska](http://www.meetup.com/Python-Hrvatska/)
+* [Lambda Zagreb](http://www.meetup.com/lambdazagreb/)
+* [Frontman Zagreb](http://www.meetup.com/FrontmanZg/)
 
 ## Contributing
 
