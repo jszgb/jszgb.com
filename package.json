@@ -22,7 +22,11 @@
     "gulp": "^3.9.1",
     "markdownlint-cli": "0.0.3",
     "node-sass": "^3.4.2",
+    "pre-commit": "^1.1.2",
     "sass-npm": "^1.0.2",
     "standard": "^6.0.7"
-  }
+  },
+  "pre-commit": [
+    "test"
+  ]
 }

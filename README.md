@@ -1,4 +1,7 @@
-# JavaScript Zagreb [![Build Status](https://travis-ci.org/jszgb/jszgb.github.io.svg?branch=master)](https://travis-ci.org/jszgb/jszgb.github.io) [![Slack Badge](https://jszgb-slack.herokuapp.com/badge.svg)](https://jszgb-slack.herokuapp.com/) 
+# JavaScript Zagreb
+
+[![Build Status](https://travis-ci.org/jszgb/jszgb.github.io.svg?branch=master)](https://travis-ci.org/jszgb/jszgb.github.io)
+[![Slack Badge](https://jszgb-slack.herokuapp.com/badge.svg)](https://jszgb-slack.herokuapp.com/)
 
 * Twitter: [@jszgb](https://twitter.com/jszgb)
 * Slack: [jszgb](https://jszgb-slack.herokuapp.com/)
