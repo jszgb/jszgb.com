@@ -7,8 +7,8 @@ title: Slides
 Slides and other stuff from JavaScript Zagreb meetups.
 
 ## JavaScript Zagreb Meetup #24 - 16.3.2016
-### [Vjekoslav Ratkajec ]()
-#### [Introduction to Electron]()
+### [Vjekoslav Ratkajec ](https://twitter.com/vratkajec)
+#### [Introduction to Electron](http://www.slidesnack.com/my-slidesnack/details/?slide=bhkmwifj)
 
 Electron enables you to create cross-platform desktop apps with web technologies. It is based on Chromium and uses Node.js to enable working with OS, and HTML, CSS and JavaScript for UI.
 
