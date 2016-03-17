@@ -6,6 +6,21 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## JavaScript Zagreb Meetup #24 - 16.3.2016
+### [Vjekoslav Ratkajec ]()
+#### [Introduction to Electron]()
+
+Electron enables you to create cross-platform desktop apps with web technologies. It is based on Chromium and uses Node.js to enable working with OS, and HTML, CSS and JavaScript for UI.
+
+For years I've been working as an ActionScript developer making cross-platform apps in Adobe AIR. Few months ago I've started to work with Electron. I'm also writing my thoughts and findings on my blog [Electron Rocks](http://electron.rocks/)!
+
+### [Mihaela Mihaljević Jakić](https://twitter.com/civeljahim)
+#### [ngrok - Secure tunnels to localhost](https://github.com/mihaelamj/ngrockdemo)
+
+Save time and be more productive. Expose local servers behind NATs and firewalls to the public internet over secure tunnels.
+
+***
+
 ## JavaScript Zagreb Meetup #23 - 17.2.2016
 ### [Tomislav Gajšak](https://twitter.com/gajo4256)
 #### [Backbone stickit - how to do two way data binding in backbone](http://www.slidesnack.com/my-slidesnack/details/?slide=b7x349ik)
