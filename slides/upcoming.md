@@ -1,3 +1,8 @@
+---
+layout: default
+title: Slides
+---
+
 # JsZgb upcoming slides
 #### List of upcoming presenters for session 2015/2016
 
