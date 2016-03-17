@@ -17,6 +17,7 @@ Zagreb, Croatia.
 
 ## Contributing
 
+* check out the [upcoming presentations document](https://github.com/jszgb/jszgb.github.io/blob/master/slides/upcoming.md)
 * slides should go to our [slides folder](https://github.com/jszgb/jszgb.github.io/blob/master/slides/slides.md)
 * propose a meetup topic by opening a [new issue](https://github.com/jszgb/jszgb.github.io/issues/new)
 * for any questions, please open up [an issue](https://github.com/jszgb/jszgb.github.io/issues/new)

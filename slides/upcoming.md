@@ -1,4 +1,5 @@
-## Here is the list of upcoming presenters for session 2015/2016
+# JsZgb upcoming slides
+#### List of upcoming presenters for session 2015/2016
 
 * [ ] Ivan Lučin - Ember
 * [ ] Hrvoje Šimić - Webtorrent
