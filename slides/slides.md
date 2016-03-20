@@ -6,7 +6,7 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
-## JavaScript Zagreb Meetup #24 - 16.3.2016
+## Meetup #24 <small>16.3.2016</small>
 ### [Vjekoslav Ratkajec](https://twitter.com/vratkajec)
 #### [Introduction to Electron](http://www.slidesnack.com/my-slidesnack/details/?slide=bhkmwifj)
 
@@ -21,20 +21,20 @@ Save time and be more productive. Expose local servers behind NATs and firewalls
 
 ***
 
-## JavaScript Zagreb Meetup #23 - 17.2.2016
+## Meetup #23 <small>17.2.2016</small>
 ### [Tomislav Gajšak](https://twitter.com/gajo4256)
 #### [Backbone stickit - how to do two way data binding in backbone](http://www.slidesnack.com/my-slidesnack/details/?slide=b7x349ik)
 
 When developing Backbone apps we often need the view to be in sync with model and vice versa. To avoid getting lost in Backbone boilerplate code with multiple listeners and events, we can easily use Stickit - one of the two-way data binding implementations available for Backbone. In this small presentation I will show you how you can use it with simple input element and more complex elements like select.
 
 ### [Tomislav Bacinger](https://twitter.com/bacinger)
-#### [Forget Google Maps. Meet D3.js ](http://svemir.co/d3/#/)
+#### [Forget Google Maps. Meet D3.js](http://svemir.co/d3/#/)
 
 D3.js is JavaScript library for manipulating documents based on data to create interactive data visualizations. By interactive data visualizations, I do not mean only charts, but much more interesting stuff, like interactive maps for example. In this talk, we will cover everything needed to create an interactive map with D3.js, including where to find free data, how to add interactivity, and how to style the map using only CSS.
 
 ***
 
-## JavaScript Zagreb Meetup #22 - 20.1.2016
+## Meetup #22 <small>20.1.2016</small>
 ### [Luka Blažecki](https://twitter.com/lukablazecki)
 #### [Integration tests in node.js](http://www.slidesnack.com/my-slidesnack/details/?slide=b7n07fa3)
 
@@ -47,7 +47,7 @@ There seems to be a new build tool released every month. Grunt, Gulp, Broccoli, 
 
 ***
 
-## JavaScript Zagreb Meetup #21 - 16.12.2015
+## Meetup #21 <small>16.12.2015</small>
 ### [Ivan Vuković](https://twitter.com/sohotsoup)
 #### [Add space after {](http://slides.com/ivanvukovic/add-space#/2)
 
@@ -55,7 +55,7 @@ Have you ever received or sent pull request and most of code review comments was
 
 ***
 
-## JavaScript Zagreb Meetup #20 - 18.11.2015
+## Meetup #20 <small>18.11.2015</small>
 ### [Vladimir Adamić](https://twitter.com/vunovati)
 #### [Hugging a syntax tree](http://slides.com/vunovati/hugging-a-syntax-tree)
 
@@ -63,7 +63,7 @@ When reasoning about the content of our JavaScript files we usually think of the
 
 ***
 
-## JavaScript Zagreb Meetup #19 - 22.10.2015
+## Meetup #19 <small>22.10.2015</small>
 ### [Matija Marohnić](https://github.com/silvenon)
 #### [Creating and Testing UIs with React](https://github.com/silvenon/jszg-react) (Part 1)
 
@@ -78,7 +78,7 @@ After Matija is done with his app, we will explain how tests in React work and w
 
 ***
 
-## JavaScript Zagreb Meetup #18 - 16.9.2015
+## Meetup #18 <small>16.9.2015</small>
 ### [Nikola Henezi](https://github.com/nhenezi)
 #### FirefoxOS
 
@@ -91,7 +91,7 @@ Matija će nam pokazati jedan od mogućih Node.js workflowa za Selenium testiran
 
 ***
 
-## JavaScript Zagreb Meetup #17 - 3.6.2015
+## Meetup #17 <small>3.6.2015</small>
 ### Matija Šmaljcelj
 #### WinJS izlazi na globalnu pozornicu
 
@@ -104,7 +104,7 @@ Najbitnija novost u WinJS 3.0 je podrška za najpopularnije desktop i mobilne pr
 
 ***
 
-## JavaScript Zagreb Meetup #16 - 5.6.2015
+## Meetup #16 <small>5.6.2015</small>
 ### Joso Mrša
 #### WebGL – The Third Dimension of the Web
 
@@ -117,7 +117,7 @@ Web Components are a set of standards that aim to solve some of the problems web
 
 ***
 
-## JavaScript Zagreb Meetup #15 - 1.4.2015.
+## Meetup #15 <small>1.4.2015</small>.
 ### Andrija Jambrović
 #### [Why you should use Marionette.js](http://slides.com/andrijajambrovic/presentation-6#/)
 
@@ -137,7 +137,7 @@ We'll present basics of Phantom.js and how to use it for testing JavaScript. Pha
 
 ***
 
-## JavaScript Zagreb Meetup #14 - 4.3.2015
+## Meetup #14 <small>4.3.2015</small>
 ### Neven Falica
 #### KnockoutJS
 
@@ -150,7 +150,7 @@ Single and multi touch gestures are integral part of almost all smartphone and t
 
 ***
 
-## JavaScript Zagreb Meetup #13 - 4.2.2015
+## Meetup #13 <small>4.2.2015</small>
 ### Dino Trojak
 #### [Zašto koristit jsDoc](http://dinodsaurus.github.io/jsDoc-presentation/#/)
 
@@ -163,7 +163,7 @@ Kako postaviti gulp task za generiranje dokumentacije iz komentara te kako koris
 
 ***
 
-## JavaScript Zagreb Meetup #12 - 3.12.2014
+## Meetup #12 <small>3.12.2014</small>
 ### Matija Marohnić
 #### Yeoman generatori
 
@@ -176,18 +176,18 @@ Prvo u seriji predavanja o nacinu na koji je tvrtka Mireo upotrijebila javascrip
 
 ***
 
-## JavaScript Zagreb Meetup #11 - 5.11.2014
+## Meetup #11 <small>5.11.2014</small>
 ### Dino Trojak
 #### [Uvod u mobilne aplikacije pomoću Ionic frameworka](https://github.com/dinodsaurus/jszgIonic)
 
 ***
 
-## JavaScript Zagreb Meetup #10 - 1.10.2014
+## Meetup #10 <small>1.10.2014</small>
 ### [Week of WebCamp special](http://2014.webcampzg.org/week-of-webcamp/wednesday/)
 
 ***
 
-## JavaScript Zagreb Meetup #9 - 3.11.2014
+## Meetup #9 <small>3.11.2014</small>
 ### Alex Kuhn
 #### [Using D3 to make interactive data visualizations](http://d3.alexckuhn.com)
 
@@ -205,7 +205,7 @@ Google Chromecast is miniature and simple device that enables you to bring custo
 
 ***
 
-## JavaScript Zagreb Meetup #8 - 3.6.2014.
+## Meetup #8 <small>3.6.2014</small>.
 ### Vedran Maršić aka Fosna
 #### [Što s tipovima u JavaScriptu](https://github.com/Fosna/TypeBoxes)
 
@@ -223,7 +223,7 @@ Pregled osobnih iskustava s klijentskih projekata, najčešćih grešaka, te že
 
 ***
 
-## JavaScript Zagreb Meetup #7 - 5.5.2014
+## Meetup #7 <small>5.5.2014</small>
 ### Matija Marohnić
 #### [Hands-on Bower](https://speakerdeck.com/matija/bower)
 
@@ -241,7 +241,7 @@ Nakon što smo prošli kako raditi aplikacije u Emberu, dotaknut ćemo se testir
 
 ***
 
-## JavaScript Zagreb Meetup #6 - 3.4.2014
+## Meetup #6 <small>3.4.2014</small>
 ### Zlatko Đurić
 #### JavaScript Promises
 
@@ -254,7 +254,7 @@ Drugi dio predstavljanja ovog client-side MVC frameworka odvest ce nas dalje u r
 
 ***
 
-## JavaScript Zagreb Meetup #5
+## Meetup #5
 ### Ivan Nikolić
 #### Bower
 
@@ -272,7 +272,7 @@ Kako funkcionira, te kada i zašto kreirati svoj middleware
 
 ***
 
-## JavaScript Zagreb Meetup #4 - 5.2.2014
+## Meetup #4 <small>5.2.2014</small>
 ### Zlatko Đurić
 #### Node.js autentikacija
 
@@ -288,7 +288,7 @@ U trećem dijelu bit će objašnjen rad s podacima i komunikacija sa serverskim 
 
 ***
 
-## JavaScript Zagreb Meetup #3 - 8.1.2014
+## Meetup #3 <small>8.1.2014</small>
 ### Zlatko Đurić
 #### NodeJS, Express i MongoDB
 
@@ -301,7 +301,7 @@ JSON all the way!
 
 ***
 
-## JavaScript Zagreb Meetup #2 - 4.12.2013
+## Meetup #2 <small>4.12.2013</small>
 ### Mihael Konjević
 #### jQuery plugin
 
@@ -317,6 +317,6 @@ Hm, što je to?
 
 ***
 
-## JavaScript Zagreb Meetup #1 - 6.11.2013
+## Meetup #1 <small>6.11.2013</small>
 
 (...)

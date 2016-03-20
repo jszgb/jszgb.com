@@ -32,6 +32,11 @@ a:hover {
   color: #7ed8fb;
   text-decoration: underline;
 }
+h2 small {
+  font-family: 'Oswald', sans-serif;
+  font-size: 70%;
+  opacity: 0.5;
+}
 #logo-menu img.gitter{
   display:block;
   width:50%;
