@@ -11,3 +11,4 @@ title: Slides
 * [ ] Luka Blažecki & Matija Marohnić - ES6 & ES7
 * [ ] Dino Trojak - Redux
 * [ ] Vjekoslav Ratkajec - Hands on Electron
+* [ ] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
