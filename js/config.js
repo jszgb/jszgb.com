@@ -5,7 +5,7 @@ $(function () {
     siteName: 'JavaScript Zagreb user grupa',
 
     // Tagline for your site
-    siteTagline: 'Place where you can find everything about JavaScript',
+    siteTagline: 'Place where you can find everything about JavaScript in Zagreb',
 
     // Email address
     siteEmail: 'dinotrojak@gmail.com',
