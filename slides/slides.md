@@ -6,6 +6,16 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## Meetup #25 (20.3.2016)
+### [Miłosz Chmura](https://twitter.com/chmuraOrg)
+#### [Streaming in JavaScript](https://slides.com/miloszchmura/streaming-in-javascript/)
+
+In programming, problems can be tackled using various ways. When it comes to data processing, a useful approach is using pipes and streaming.
+
+In this presentation I will show you how I came up with solution to a simple interview task using streaming approach in Node.js. Furthermore, I will show you the great benefits of this approach: performance and processing of infinite amount of data. 
+
+***
+
 ## Meetup #24 (16.3.2016)
 ### [Vjekoslav Ratkajec](https://twitter.com/vratkajec)
 #### [Introduction to Electron](http://www.slidesnack.com/my-slidesnack/details/?slide=bhkmwifj)
