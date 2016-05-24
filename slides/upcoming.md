@@ -6,7 +6,7 @@ title: Upcoming Slides
 # JsZgb upcoming slides
 #### List of upcoming presenters for session 2016/2017
 
-* Empty
+* [ ] Slaven Tomac - How to write your own Yeoman generator
 
 
 #### List of upcoming presenters for session 2015/2016
