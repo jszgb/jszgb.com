@@ -11,5 +11,5 @@ title: Upcoming Slides
 * [ ] Hrvoje Šimić - Webtorrent
 * [ ] Luka Blažecki & Matija Marohnić - ES6 & ES7
 * [ ] Dino Trojak - Redux
-* [ ] Vjekoslav Ratkajec - Hands on Electron
-* [ ] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
+* [X] Vjekoslav Ratkajec - Hands on Electron
+* [X] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
