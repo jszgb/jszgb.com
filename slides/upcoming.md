@@ -6,7 +6,7 @@ title: Upcoming Slides
 # JsZgb upcoming slides
 #### List of upcoming presenters for session 2016/2017
 
-* Empty
+* [ ] Slaven Tomac - How to write your own Yeoman generator
 
 
 #### List of upcoming presenters for session 2015/2016
@@ -18,4 +18,3 @@ title: Upcoming Slides
 * [ ] Dino Trojak - Redux
 * [X] Vjekoslav Ratkajec - Hands on Electron
 * [X] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
-* [ ] Slaven Tomac - How to write your own Yeoman generator
