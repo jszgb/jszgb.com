@@ -4,6 +4,11 @@ title: Upcoming Slides
 ---
 
 # JsZgb upcoming slides
+#### List of upcoming presenters for session 2016/2017
+
+* Empty
+
+
 #### List of upcoming presenters for session 2015/2016
 
 * [X] Ivan Lučin - Ember
