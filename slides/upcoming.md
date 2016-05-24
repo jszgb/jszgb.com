@@ -18,3 +18,4 @@ title: Upcoming Slides
 * [ ] Dino Trojak - Redux
 * [X] Vjekoslav Ratkajec - Hands on Electron
 * [X] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
+* [ ] Slaven Tomac - How to write your own Yeoman generator
