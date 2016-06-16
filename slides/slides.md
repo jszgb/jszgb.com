@@ -27,6 +27,11 @@ Some additional resources on Promises:
 
 [Async and Await ](https://zeit.co/blog/async-and-await?utm_source=javascriptweekly&utm_medium=email)
 
+### [Matija Marohnić](https://twitter.com/silvenon)
+#### [You (probably) don't need jQuery (anymore)](http://slides.com/silvenon/you-dont-need-jquery)
+
+There was a time when browsers were handling DOM, AJAX etc. very differently. Normalizing these manually was a pain, so libraries like jQuery were invaluable. Now that browsers have more-or-less agreed upon these things and frameworks have started to rise, jQuery has become an unnecessary abstraction and might be preventing you from getting better at JavaScript. I will show you how to achieve common tasks without it, so you can decide whether you really need it.
+
 ## Meetup #25 (20.3.2016)
 ### [Miłosz Chmura](https://twitter.com/chmuraOrg)
 #### [Streaming in JavaScript](https://slides.com/miloszchmura/streaming-in-javascript/)
