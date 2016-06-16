@@ -6,6 +6,25 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## Meetup #27 (15.6.2016)
+### [Luka Blažecki](https://twitter.com/LukaBlazecki)
+#### [Writing readable async code in JS](http://share.snacktools.com/97F65E6EFB5/b7xcspmu)
+
+Intro to callbacks, promises and async/await. 
+
+We all started writing JS code with callbacks (hell). And it sucked a lot. Then promises came. They solved a lot of problems, like error handling and timing. But sometimes flow and readability are too complicated or hold too much additional syntax. This is what async/await is resolving. 
+Now JS can finally be fun to write even when there is complicated flow!
+
+Some additional resources on Promises:
+
+[Bluebird promise library](http://bluebirdjs.com/docs/getting-started.html)
+
+[Promise nuggets](https://promise-nuggets.github.io/)
+
+[Promises: All The Wrong Ways](https://blog.getify.com/promises-wrong-ways/)
+
+[You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/#toc_1)
+
 ## Meetup #25 (20.3.2016)
 ### [Miłosz Chmura](https://twitter.com/chmuraOrg)
 #### [Streaming in JavaScript](https://slides.com/miloszchmura/streaming-in-javascript/)
@@ -56,6 +75,7 @@ D3.js is JavaScript library for manipulating documents based on data to create i
 #### [Integration tests in node.js](http://www.slidesnack.com/my-slidesnack/details/?slide=b7n07fa3)
 
 Everyone is talking about how testing is important, but there is little talk about what the tests look like in a slightly bigger Node.js application. Nor is there talk about the encountered problems or possible solutions. Through this talk I would like to start a discussion about one part of the testing through integration tests in the web / API Node.js.
+
 
 ### [Matija Marohnić](https://twitter.com/silvenon)
 #### [Unpacking Webpack](https://github.com/silvenon/jszg-webpack)
