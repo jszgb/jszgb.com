@@ -25,6 +25,8 @@ Some additional resources on Promises:
 
 [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/#toc_1)
 
+[Async and Await ](https://zeit.co/blog/async-and-await?utm_source=javascriptweekly&utm_medium=email)
+
 ## Meetup #25 (20.3.2016)
 ### [Miłosz Chmura](https://twitter.com/chmuraOrg)
 #### [Streaming in JavaScript](https://slides.com/miloszchmura/streaming-in-javascript/)
