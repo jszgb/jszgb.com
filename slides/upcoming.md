@@ -7,6 +7,7 @@ title: Upcoming Slides
 #### List of upcoming presenters for session 2016/2017
 
 * [ ] Slaven Tomac - How to write your own Yeoman generator
+* [ ] Neven Falica - Why I stopped using CoffeeScript
 
 
 #### List of upcoming presenters for session 2015/2016
