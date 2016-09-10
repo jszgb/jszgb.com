@@ -55,6 +55,38 @@
       "hour": "18:00",
       "street": "Preradovićeva 18, Zagreb",
       "weekday": "Wednesday"
+    },
+    {
+      "title": "jsZgb meetup #28",
+      "link": "http://www.meetup.com/JavaScript-Zagreb/events/228955977/",
+      "day": "21.09.2016.",
+      "hour": "18:30",
+      "street": "HUB385, Petračićeva Ulica 4",
+      "weekday": "Wednesday"
+    },
+    {
+      "title": "jsZgb meetup #29",
+      "link": "http://www.meetup.com/JavaScript-Zagreb/events/228955977/",
+      "day": "19.10.2016.",
+      "hour": "18:30",
+      "street": "HUB385, Petračićeva Ulica 4",
+      "weekday": "Wednesday"
+    },
+    {
+      "title": "jsZgb meetup #30",
+      "link": "http://www.meetup.com/JavaScript-Zagreb/events/228955977/",
+      "day": "16.11.2016.",
+      "hour": "18:30",
+      "street": "HUB385, Petračićeva Ulica 4",
+      "weekday": "Wednesday"
+    },
+    {
+      "title": "jsZgb meetup #30",
+      "link": "http://www.meetup.com/JavaScript-Zagreb/events/228955977/",
+      "day": "21.12.2016.",
+      "hour": "18:30",
+      "street": "HUB385, Petračićeva Ulica 4",
+      "weekday": "Wednesday"
     }
   ]
 }
