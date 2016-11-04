@@ -7,7 +7,7 @@ title: Upcoming Slides
 #### List of upcoming presenters for session 2016/2017
 
 * [ ] Slaven Tomac - How to write your own Yeoman generator
-* [ ] Neven Falica - Why I stopped using CoffeeScript
+* [X] Neven Falica - Why I stopped using CoffeeScript
 
 
 #### List of upcoming presenters for session 2015/2016
@@ -15,7 +15,7 @@ title: Upcoming Slides
 * [X] Ivan Lučin - Ember
 * [X] Miłosz Chmura  - Streaming in JavaScript
 * [ ] Hrvoje Šimić - Webtorrent
-* [ ] Luka Blažecki & Matija Marohnić - ES6 & ES7
-* [ ] Dino Trojak - Redux
+* [X] Luka Blažecki & Matija Marohnić - ES6 & ES7
+* [X] Dino Trojak - Redux
 * [X] Vjekoslav Ratkajec - Hands on Electron
 * [X] Mark Nadal - [GunJs](http://gun.js.org/#step1) (video podcast)
