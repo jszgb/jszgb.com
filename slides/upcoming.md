@@ -6,7 +6,7 @@ title: Upcoming Slides
 # JsZgb upcoming slides
 #### List of upcoming presenters for session 2016/2017
 
-* [ ] Slaven Tomac - How to write your own Yeoman generator
+* [X] Slaven Tomac - How to write your own Yeoman generator
 * [X] Neven Falica - Why I stopped using CoffeeScript
 
 
