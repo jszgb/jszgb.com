@@ -6,6 +6,14 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## Meetup #29 (16.11.2016)
+### [Slaven Tomac](https://twitter.com/slaventomac)
+#### [How to write your own yeoman generator](http://www.slideshare.net/slaventomac/how-to-write-your-own-yeoman-generator)
+
+Yeoman is being used for easy scaffolding of your project. There is a ton of Yeoman generators online, but what if you don't like any of them and you want something different. This is a possibility for you to create your own Yeoman generator.
+
+I will give short introduction through slideshow/code how you can create simple Yeoman generator, publish it and make developers start using it. 
+
 ## Meetup #27 (15.6.2016)
 ### [Luka Blažecki](https://twitter.com/LukaBlazecki)
 #### [Writing readable async code in JS](http://share.snacktools.com/97F65E6EFB5/b7xcspmu)
