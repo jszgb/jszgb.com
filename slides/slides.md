@@ -6,7 +6,7 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
-## Meetup #30 (16.11.2016)
+## Meetup #30 (21.12.2016)
 ### [Dinko Mihovilović](https://github.com/dinkom)
 #### React + React Storybook + atomic design
 
@@ -39,6 +39,19 @@ Through the presentation and code, I will show you how I solved my state problem
 
 Code from the demo is available on [Github](https://github.com/wedranb/lorem-trumpsum).
 
+## Meetup #28 (19.10.2016)
+### [Matija Marohnić](https://twitter.com/silvenon)
+#### Unicorn against JavaScript Fatigue
+
+ Starting a React applications is becoming increasingly difficult and the choice fatigue has gone through the roof. So. Many. Tools. In the great kingdom of Facebook a unicorn has been born. Its name is "create-react-app" (not the most elegant name for a unicorn) and its destiny is to fight JavaScript Fatigue, a vicious monster who's making developers all over the world miserable. Unlike React boilerplates, create-react-app abstracts away all the implementation details of serving, transpiling, testing etc. They are all hidden behind a dependency, so you don't have to worry about accidentally messing something up or even just looking at all that intimidating configuration. Unlike similar solutions, create-react-app is "official"!
+
+### [Hrvoje Šimić](https://twitter.com/shimewastaken)
+#### How I made my first somewhat popular open source tool
+
+Two years ago I made Livedown, a tool for previewing Markdown files from your editor and it has since been downloaded 8k times. I made it because I wasn't happy with solutions at the time and decided to write it in JavaScript to support multiple editors.
+
+I'll share what I've learned and give some general tips on how to write useful open source tools.
+
 ## Meetup #27 (15.6.2016)
 ### [Luka Blažecki](https://twitter.com/LukaBlazecki)
 #### [Writing readable async code in JS](http://share.snacktools.com/97F65E6EFB5/b7xcspmu)
@@ -65,6 +78,24 @@ Some additional resources on Promises:
 
 There was a time when browsers were handling DOM, AJAX etc. very differently. Normalizing these manually was a pain, so libraries like jQuery were invaluable. Now that browsers have more-or-less agreed upon these things and frameworks have started to rise, jQuery has become an unnecessary abstraction and might be preventing you from getting better at JavaScript. I will show you how to achieve common tasks without it, so you can decide whether you really need it.
 
+## Meetup #26 (18.5.2016)
+### [Vjekoslav Ratkajec](https://github.com/Vj3k0)
+#### Making desktop apps with Electron
+
+Electron enables you to create cross-platform desktop apps with web technologies. In this live coding session, we’ll build simple Electron application from scratch and publish it for Windows and OSX.
+
+### [Mark Nadal](https://github.com/amark)
+#### The Javascript Database for Javascript Developers
+
+GUN is an Open Source database written entirely in JavaScript from a bunch of geeks who got frustrated dealing with database servers. It is mad science that just happens to be crazy enough for Silicon Valley VCs and the NodeJS community alike, hitting the Top 4% of NPM when we launched and was the #3 Top Trending javascript project on GitHub at the end of August.  
+
+
+- Peer-to-Peer architecture than can automatically recover from any failures, with a zero-configuration setup.
+- Realtime updates across phones, browsers, and servers - yet still have offline support when disconnected.
+- Graph data structures which support relational or document oriented data, together with key-value.
+
+Databases should be understandable, and that is why we are excited to share about gun but most importantly hear what your feedback is. This is the JavaScript Database for JavaScript Developers, join us at http://gun.js.org/
+
 ## Meetup #25 (20.3.2016)
 ### [Miłosz Chmura](https://twitter.com/chmuraOrg)
 #### [Streaming in JavaScript](https://slides.com/miloszchmura/streaming-in-javascript/)
@@ -80,7 +111,6 @@ Maintaining client side of a big saas product can be hard in a monolithic, serve
 
 This talk will cover the process of switching from Rails only app to API based backend + Ember JS app and it will try to show why choosing Ember really was a good decision.
 
-***
 
 ## Meetup #24 (16.3.2016)
 ### [Vjekoslav Ratkajec](https://twitter.com/vratkajec)
@@ -95,7 +125,6 @@ For years I've been working as an ActionScript developer making cross-platform a
 
 Save time and be more productive. Expose local servers behind NATs and firewalls to the public internet over secure tunnels.
 
-***
 
 ## Meetup #23 (17.2.2016)
 ### [Tomislav Gajšak](https://twitter.com/gajo4256)
