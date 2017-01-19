@@ -6,20 +6,35 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## Meetup #30 (16.11.2016)
+### [Dinko Mihovilović](https://github.com/dinkom)
+#### React + React Storybook + atomic design
+
+A demo which will take you through writing a small React app following the principles of atomic design (which will also be briefly covered) and tested with React-Storybook.
+
+React Storybook is a UI development environment for testing React components. It enables you to interactively test each component separately in isolation, ensuring that they perform as expected. React Storybook can also be expanded to play along with other testing libraries (such as Enzyme), which this talk will also attempt to demonstrate.
+
+### [Dino Trojak](https://twitter.com/dinodsaurus)
+#### [React native](http://slides.com/dinotrojak/create-react-app-2-3#/)
+
+There is a lot of talk about React in our user group. In this talk it will be shown how to leverage React knowledge in the native development with real life experience from working with React native on a production app. Also, we will scaffold, build and also publish our jsZgb app.
+
+Code from the demo is available on [Github](https://github.com/jszgb/mobile).
+
 ## Meetup #29 (16.11.2016)
 ### [Slaven Tomac](https://twitter.com/slaventomac)
 #### [How to write your own yeoman generator](http://www.slideshare.net/slaventomac/how-to-write-your-own-yeoman-generator)
 
 Yeoman is being used for easy scaffolding of your project. There is a ton of Yeoman generators online, but what if you don't like any of them and you want something different. This is a possibility for you to create your own Yeoman generator.
 
-I will give short introduction through slideshow/code how you can create simple Yeoman generator, publish it and make developers start using it. 
+I will give short introduction through slideshow/code how you can create simple Yeoman generator, publish it and make developers start using it.
 
 ### [Vedran Blaženka](https://twitter.com/vblazenka)
 #### [React state management with Redux](http://www.slideshare.net/VedranBlaenka/react-state-managmenet-with-redux)
 
-When developing applications we have a hard time managing application state, and that is okay because managing application state is hard. We will try to make it easier using Redux. 
+When developing applications we have a hard time managing application state, and that is okay because managing application state is hard. We will try to make it easier using Redux.
 
-Redux is predictable state management container for JavaScript applications that helps us manage our state while also making our state mutations predictable. 
+Redux is predictable state management container for JavaScript applications that helps us manage our state while also making our state mutations predictable.
 Through the presentation and code, I will show you how I solved my state problem with Redux in React application.  
 
 Code from the demo is available on [Github](https://github.com/wedranb/lorem-trumpsum).
@@ -28,9 +43,9 @@ Code from the demo is available on [Github](https://github.com/wedranb/lorem-tru
 ### [Luka Blažecki](https://twitter.com/LukaBlazecki)
 #### [Writing readable async code in JS](http://share.snacktools.com/97F65E6EFB5/b7xcspmu)
 
-Intro to callbacks, promises and async/await. 
+Intro to callbacks, promises and async/await.
 
-We all started writing JS code with callbacks (hell). And it sucked a lot. Then promises came. They solved a lot of problems, like error handling and timing. But sometimes flow and readability are too complicated or hold too much additional syntax. This is what async/await is resolving. 
+We all started writing JS code with callbacks (hell). And it sucked a lot. Then promises came. They solved a lot of problems, like error handling and timing. But sometimes flow and readability are too complicated or hold too much additional syntax. This is what async/await is resolving.
 Now JS can finally be fun to write even when there is complicated flow!
 
 Some additional resources on Promises:
