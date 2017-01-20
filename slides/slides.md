@@ -6,6 +6,19 @@ title: Slides
 
 Slides and other stuff from JavaScript Zagreb meetups.
 
+## Meetup #31 (18.01.2017)
+### [Damir Šehić](https://github.com/DyslexicDcuk)
+#### [RxJS - Reactive programming, Observables, timeless patterns and new implementations](http://slides.com/damirsehic/rxjs)
+
+RxJS (Reactive Extensions for JavaScript) is a library for transforming, composing, and querying streams of data. You can use it to model all kinds of data: from simple arrays of values, series of events (unfortunate or otherwise), complex flows of data, to HTTP requests. I'll explain what is an Observable, what is RxJS and why/where/how you can use it.
+
+Code from the demo is available on [Github](https://github.com/DyslexicDcuk/jszgb-meetup-rxjs)
+
+### Tomislav Tenodi
+#### Rapid development with React Native
+
+React Native is an awesome technology for building native mobile apps. Its well designed architecture makes it possible to learn one stack and leverage it on the multiple platforms. However, creating an app remains a cumbersome task. Did we reach the maximum development efficiency? Shoutem designed the first-ever plugin architecture to eliminate all the boilerplate steps when building an app, with open-sourced plugins, cloud storage and automated publishing to both app stores. In this presentation, I will give a demo on how to build a React Native plugin along with creating a unique, production-ready application.
+
 ## Meetup #30 (21.12.2016)
 ### [Dinko Mihovilović](https://github.com/dinkom)
 #### React + React Storybook + atomic design
@@ -35,7 +48,7 @@ I will give short introduction through slideshow/code how you can create simple 
 When developing applications we have a hard time managing application state, and that is okay because managing application state is hard. We will try to make it easier using Redux.
 
 Redux is predictable state management container for JavaScript applications that helps us manage our state while also making our state mutations predictable.
-Through the presentation and code, I will show you how I solved my state problem with Redux in React application.  
+Through the presentation and code, I will show you how I solved my state problem with Redux in React application.
 
 Code from the demo is available on [Github](https://github.com/wedranb/lorem-trumpsum).
 
@@ -87,7 +100,7 @@ Electron enables you to create cross-platform desktop apps with web technologies
 ### [Mark Nadal](https://github.com/amark)
 #### The Javascript Database for Javascript Developers
 
-GUN is an Open Source database written entirely in JavaScript from a bunch of geeks who got frustrated dealing with database servers. It is mad science that just happens to be crazy enough for Silicon Valley VCs and the NodeJS community alike, hitting the Top 4% of NPM when we launched and was the #3 Top Trending javascript project on GitHub at the end of August.  
+GUN is an Open Source database written entirely in JavaScript from a bunch of geeks who got frustrated dealing with database servers. It is mad science that just happens to be crazy enough for Silicon Valley VCs and the NodeJS community alike, hitting the Top 4% of NPM when we launched and was the #3 Top Trending javascript project on GitHub at the end of August.
 
 
 - Peer-to-Peer architecture than can automatically recover from any failures, with a zero-configuration setup.
