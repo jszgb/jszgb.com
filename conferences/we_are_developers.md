@@ -35,6 +35,6 @@ kao i **Virtual Reality, Internet of Things, Big Data, IT security, Robotics, Ar
 
 #### Pored klasičnih predavanja, održat će se i natjecanja u programiranju, kao i mogućnost poslovnog povezivanja i zapošljavanja.  
 
-#### Za popust na kupnju karata javiti se na slack kanal JS meetupa!!!
+#### Za popust na kupnju karata u iznosu 20% javiti se na slack kanal JS meetupa!!!
 
 Vise informacija na sluzbenoj stranici konferencije [www.wearedevelopers.org](http://www.wearedevelopers.org)
