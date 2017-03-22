@@ -9,3 +9,6 @@ gulp.task('style', () => {
     importer: sassNpm.importer
   }))
 })
+
+gulp.task('default', ['style'], () => {
+});
