@@ -1,32 +1,30 @@
 {
-  "name": "jsZgb",
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
   "version": "1.0.0",
-  "description": "jsZgb Site",
-  "homepage": "https://github.com/cdmedia/cms.js",
-  "scripts": {
-    "style": "node-sass styles/style.scss > css/main.css",
-    "lint": "standard; markdownlint README.md",
-    "test": "npm run lint"
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^1.9.141",
+    "gatsby-link": "^1.6.32",
+    "gatsby-plugin-google-fonts": "^0.0.3",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-source-filesystem": "^1.5.11",
+    "gatsby-transformer-remark": "^1.7.25",
+    "react-twitter-widgets": "^1.7.1",
+    "standard": "^10.0.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jszgb/jszgb.github.io"
-  },
-  "author": "Dino Trojak",
+  "keywords": [
+    "gatsby"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jszgb/jszgb.github.io/issues"
+  "main": "n/a",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "babel-register": "^6.5.2",
-    "gulp": "^3.9.1",
-    "markdownlint-cli": "0.0.3",
-    "node-sass": "^3.4.2",
-    "pre-commit": "^1.1.2",
-    "sass-npm": "^1.0.2",
-    "standard": "^6.0.7"
-  },
-  "pre-commit": [
-    "test"
-  ]
+    "prettier": "^1.9.2"
+  }
 }
