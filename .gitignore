@@ -4,3 +4,4 @@ tmp/
 _site/crash.log
 node_modules
 *.log
+public
