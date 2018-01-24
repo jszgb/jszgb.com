@@ -9,13 +9,12 @@ import './index.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title='JavaScript Zagreb'
-      meta={[
-        { name: 'description', content: 'JavaScript Zagreb user group website' },
-        { name: 'keywords', content: 'javascript, node, react, frontend, backend, development' }
-      ]}
-    />
+    <Helmet>
+      <title>JavaScript Zagreb</title>
+      <meta name='description' content='JavaScript Zagreb user group website' />
+      <meta name='keywords' content='javascript, node, react, frontend, backend, development' />
+      <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet' />
+    </Helmet>
     <div className='container'>
       <Nav />
       <Social />

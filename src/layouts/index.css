@@ -195,7 +195,7 @@ main {
   line-height: 1.2em;
   margin: 0;
   position: relative;
-  padding-left: 25px;
+  padding-left:10px;
   margin-bottom:10px;
 }
 /* line 113, content/stylesheets/stylesheet.scss */
@@ -204,13 +204,8 @@ main {
   text-decoration: none;
 }
 /* line 117, content/stylesheets/stylesheet.scss */
-#social h2 b {
-  font-weight: normal;
-  font-size: 16px;
-  position: absolute;
-  display: block;
-  left: 0;
-  margin-top: -1px;
+#social h2 span {
+  margin-right: 5px;
 }
 /* line 126, content/stylesheets/stylesheet.scss */
 #social a.twitter-timeline {
