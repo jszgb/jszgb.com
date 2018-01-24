@@ -3,8 +3,8 @@ import { Timeline } from 'react-twitter-widgets'
 
 const Social = () => (
   <aside id='social'>
-    <h2><b className='icon-calendar' />Upcoming events</h2>
-    <table id='events' />
+    {/* <h2><b className='icon-calendar' />Upcoming events</h2>
+    <table id='events' /> */}
     <h2><b className='icon-twitter' />Follow <a href='https://twitter.com/intent/follow?screen_name=jszgb'>@jszgb</a> on Twitter</h2>
     <Timeline
       dataSource={{
