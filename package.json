@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jszgb",
+  "description": "Javascript Zagreb",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dino Trojak <dinotrojak@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.141",
     "gatsby-link": "^1.6.32",
@@ -14,11 +14,7 @@
     "react-fontawesome": "^1.6.1",
     "react-twitter-widgets": "^1.7.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
-  "main": "n/a",
   "scripts": {
     "build": "gatsby build",
     "lint": "standard --fix",
