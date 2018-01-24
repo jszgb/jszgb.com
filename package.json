@@ -10,6 +10,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-source-filesystem": "^1.5.11",
     "gatsby-transformer-remark": "^1.7.25",
+    "pre-commit": "^1.2.2",
     "react-fontawesome": "^1.6.1",
     "react-twitter-widgets": "^1.7.1"
   },
@@ -20,6 +21,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
+    "lint": "standard --fix",
     "develop": "gatsby develop",
     "deploy": "gatsby build && cp README.md public/ && cp favicon.ico public/ && cp CNAME public/ && gh-pages -d public -b master",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
@@ -34,5 +36,8 @@
     "globals": [
       "graphql"
     ]
-  }
+  },
+  "pre-commit": [
+    "test"
+  ]
 }
