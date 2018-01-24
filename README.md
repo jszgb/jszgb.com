@@ -1,6 +1,6 @@
 # JavaScript Zagreb - [JavaScript-Zagreb](http://www.meetup.com/JavaScript-Zagreb/)
 
-[![Build Status](https://travis-ci.org/jszgb/jszgb.github.io.svg?branch=master)](https://travis-ci.org/jszgb/jszgb.github.io)
+[![Build Status](https://travis-ci.org/jszgb/jszgb.github.io.svg?branch=develop)](https://travis-ci.org/jszgb/jszgb.github.io)
 [![Slack Badge](https://jszgb-slack.herokuapp.com/badge.svg)](https://jszgb-slack.herokuapp.com/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/jszgb.svg?style=social)](https://twitter.com/jszgb)
 
