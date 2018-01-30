@@ -19,7 +19,7 @@
     "build": "gatsby build",
     "lint": "standard --fix",
     "develop": "gatsby develop",
-    "deploy": "gatsby build && cp README.md public/ && cp favicon.ico public/ && cp CNAME public/ && gh-pages -d public -b master",
+    "deploy": "gatsby build && cp README.md public/ && cp -R .github public/ && cp favicon.ico public/ && cp CNAME public/ && gh-pages -d public -b master",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
     "test": "standard"
   },
