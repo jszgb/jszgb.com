@@ -1,4 +1,5 @@
 .DS_Store
+.cache
 .sass-cache/
 tmp/
 _site/crash.log
