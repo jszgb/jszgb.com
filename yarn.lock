@@ -3496,9 +3496,9 @@ gatsby-module-loader@^1.0.9:
     babel-runtime "^6.26.0"
     loader-utils "^0.2.16"
 
-gatsby-paginate@^1.0.12:
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/gatsby-paginate/-/gatsby-paginate-1.0.12.tgz#18e4143592392835b48f02317c663ea6eb7f0049"
+gatsby-paginate@1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/gatsby-paginate/-/gatsby-paginate-1.0.16.tgz#b45b92898005aa798b3b51c7abab286753e4cbe5"
   dependencies:
     path "^0.12.7"
 
