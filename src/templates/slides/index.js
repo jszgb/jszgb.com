@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 import Meetup from '../../components/meetup/index'
 import Pagination from '../../components/pagination/index'
@@ -6,7 +6,7 @@ import Pagination from '../../components/pagination/index'
 import { PaginationContainer } from './styles'
 
 const renderMeetup = ({ frontmatter, html }) => {
-  return <Meetup {...frontmatter} html={html} />;
+  return <Meetup {...frontmatter} html={html} />
 }
 
 export default ({ pathContext }) => {
@@ -22,4 +22,3 @@ export default ({ pathContext }) => {
     </div>
   )
 }
-

@@ -1,4 +1,3 @@
-const path = require('path')
 const createPaginatedPages = require('gatsby-paginate')
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators
@@ -12,7 +11,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
         posts: allMarkdownRemark(
             sort: { order: DESC, fields: [frontmatter___date] }
-            filter: { fileAbsolutePath: { regex: "/(slides)/.*\.md$/" } }
+            filter: { fileAbsolutePath: { regex: "/(slides)/.*.md$/" } }
           ) {
           totalCount
           edges {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Meetup = ({ date, title, html }) => (
   <article>
@@ -6,6 +6,6 @@ const Meetup = ({ date, title, html }) => (
     <h1 className='post-title'>{title}</h1>
     <div className='post-content'dangerouslySetInnerHTML={{__html: html}} />
   </article>
-);
+)
 
-export default Meetup;
+export default Meetup
