@@ -9,14 +9,14 @@ const renderNumberItem = (pageNum, activePage) => <Link key={pageNum} active={pa
 const paginate = (activePage, pageCount) => {
   const pages = Array(pageCount).fill().map((v, i) => i + 1)
 
-  if (activePage < pageCount - MAX_NUMS) {
+  if (activePage <= pageCount - MAX_NUMS) {
     return pages
       .slice(activePage - 1, activePage + MAX_NUMS - 1)
       .map(page => renderNumberItem(page, activePage))
   }
 
   return pages
-    .slice(pageCount - MAX_NUMS - 1, pageCount)
+    .slice(pageCount - MAX_NUMS, pageCount)
     .map(page => renderNumberItem(page, activePage))
 }
 
