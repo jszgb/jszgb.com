@@ -6,3 +6,5 @@ _site/crash.log
 node_modules
 *.log
 public
+.cache
+.idea

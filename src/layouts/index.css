@@ -323,6 +323,8 @@ main {
 article {
   border-bottom: 1px solid #282828;
   padding-bottom: 1em;
+}
+article:not(:last-of-type) {
   margin-bottom: 1.5em;
 }
 /* line 186, content/stylesheets/stylesheet.scss */
