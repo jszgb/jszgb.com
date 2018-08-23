@@ -31,7 +31,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       createPaginatedPages({
         edges: result.data.posts.edges,
         createPage: createPage,
-        pageTemplate: 'src/templates/slides.js',
+        pageTemplate: 'src/templates/slides/index.js',
         pathPrefix: 'slides',
         pageLength: 3
       })
