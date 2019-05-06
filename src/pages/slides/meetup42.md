@@ -2,11 +2,13 @@
 path: '/slides/meetup-42'
 date: '2018-06-21'
 title: 'Meetup #42'
-id: 41
+id: 42
 ---
 
 ### [Valeri Karpov](https://twitter.com/code_barbarian)
 #### TAO: The Essence of Modern JavaScript
+
+[SLIDE LINKS](https://www.slideshare.net/vkarpov15/tao-and-the-essence-of-modern-javascript)
 
 Redux, MobX, ngrx, vuex, and other state management libraries seem different on the surface, but the core idea is the same. The core idea is a departure from conventional MVC architecture, where "models" where responsible for tracking changes and notifying listeners of changes, to an architecture where all changes go through "actions" and stores subscribe to a stream of actions.
 
